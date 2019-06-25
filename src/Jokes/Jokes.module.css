@@ -1,0 +1,45 @@
+.Jokes {
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+.Jokes_Sidebar {
+  background: #9575cd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.Jokes_Sidebar h2 {
+  font-size: 4rem;
+  margin: 2rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+}
+
+.Jokes_Sidebar h2 span {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.Jokes_Sidebar img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Joke {
+  height: 90%;
+  background: #fff;
+  align-self: center;
+  width: 70%;
+  overflow: scroll;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}

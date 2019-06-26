@@ -21,12 +21,6 @@ const Joke = props => {
     }
   };
 
-  // <i class="em em-smiley"></i>
-  // <i class="em em-laughing"></i>
-  // <i class="em em-slightly_smiling_face"></i>
-  // <i class="em em-neutral_face"></i>
-  // <i class="em em-confused"></i>
-  // <i class="em em-angry"></i>
   const getEmojiByVotes = () => {
     if (props.votes >= 15) {
       return 'em em-rolling_on_the_floor_laughing';
